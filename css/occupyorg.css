@@ -1,0 +1,26 @@
+footer ul.menu,
+nav#block-system-user-menu ul.menu {
+  list-style-type: none;
+  margin:0;
+}
+nav#block-system-user-menu ul.menu {
+  float:right;
+}
+
+footer ul.menu li,
+nav#block-system-user-menu ul.menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#page > footer {
+  background-color: transparent;
+}
+#page > footer nav .block-inner {
+  margin: 0;
+}
+
+/* added by Gregg O /*
+legend { position:relative; margin-left: 15px; }
+
+legend { position:relative; }
